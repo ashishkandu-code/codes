@@ -39,13 +39,18 @@
             justify-content: space-between;
             align-items: center;
             /* margin: 20px; */
-            padding: ;
         }
 
         section {
             width: 98vw;
             height: 85vh;
             margin: auto;
+        }
+
+        .main-container {
+            width: 100%;
+            height: 100%;
+            /* border: 2px solid red; */
         }
 
         .container {
@@ -102,6 +107,33 @@
             user-select: none;
         }
 
+        .selection {
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid green; */
+            margin-top: 14px;
+            text-align: center;
+        }
+
+        select {
+            width: 50%;
+            height: 100%;
+            /* margin: auto; */
+            background-color: #343A40;
+            color: white;
+            border: none;
+            text-align-last: center;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        select option {
+            /* margin: 40px; */
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+        }
+
         @media (max-width: 460px) {
             section {
                 width: 99%;
@@ -120,116 +152,233 @@
         }
     </style>
 </head>
-<header>
-    <div class="header-wrapper">
-        <div class="header-content">
-            <div class="heading">
-                <h1>HAMROSHOW</h1>
-            </div>
-            <div class="button">
-                <p>TV SHOWS</p>
-            </div>
-
-        </div>
-    </div>
-</header>
-<br>
-<section>
-    <div class="container">
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-15-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep141_20200913T115159.mpd"></a>
-            <div class="episode-no">Episode 141</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-14-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_tkss_ep140_20200912T100346.mpd"></a>
-            <div class="episode-no">Episode 140</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-13-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep139_20200906T112504.mpd"></a>
-            <div class="episode-no">Episode 139</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-12-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep138_20200905T111025.mpd"></a>
-            <div class="episode-no">Episode 138</div>
-        </div>
-
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-11-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep137_20200830T122809.mpd"></a>
-            <div class="episode-no">Episode 137</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-10-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep136_20200829T112423.mpd"></a>
-            <div class="episode-no">Episode 136</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-9-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep135_20200823T102158.mpd"></a>
-            <div class="episode-no">Episode 135</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-8-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep134_20200822T093906.mpd"></a>
-            <div class="episode-no">Episode 134</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-7-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep133_20200816T101119.mpd"></a>
-            <div class="episode-no">Episode 133</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-6-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_kapilsharma_ep132_20200815T082208.mpd"></a>
-            <div class="episode-no">Episode 132</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-5-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep131_20200809T095903.mpd"></a>
-            <div class="episode-no">Episode 131</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-4-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep130_20200808T105136.mpd"></a>
-            <div class="episode-no">Episode 130</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-3-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep129_20200802T084739.mpd"></a>
-            <div class="episode-no">Episode 129</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-2-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep128_20200801T110234.mpd"></a>
-            <div class="episode-no">Episode 128</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-1-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep127_20200327T145303.mpd"></a>
-            <div class="episode-no">Episode 127</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(thumbnail/image-0-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
-                href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep126_20200327T145219.mpd"></a>
-            <div class="episode-no">Episode 126</div>
-        </div>
-        <div class="content">
-            <a style="background-image: url(); background-repeat: no-repeat; background-size: cover;" href="vlc://"></a>
-        </div>
-        <div class="content">
-            <a style="background-image: url(); background-repeat: no-repeat; background-size: cover;" href="vlc://"></a>
-        </div>
-
-
-    </div>
-</section>
 
 <body>
+    <header>
+        <div class="header-wrapper">
+            <div class="header-content">
+                <div class="heading">
+                    <h1>HAMROSHOW</h1>
+                </div>
+                <div class="page">
+                    <p>TV SHOWS</p>
+                </div>
 
+            </div>
+        </div>
+    </header>
+    <br>
+    <section>
+        <div class="main-container">
+            <div class="container d1">
+
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-15-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep141_20200913T115159.mpd"></a>
+                    <div class="episode-no">Episode 141</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-14-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_tkss_ep140_20200912T100346.mpd"></a>
+                    <div class="episode-no">Episode 140</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-13-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep139_20200906T112504.mpd"></a>
+                    <div class="episode-no">Episode 139</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-12-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep138_20200905T111025.mpd"></a>
+                    <div class="episode-no">Episode 138</div>
+                </div>
+
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-11-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep137_20200830T122809.mpd"></a>
+                    <div class="episode-no">Episode 137</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-10-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep136_20200829T112423.mpd"></a>
+                    <div class="episode-no">Episode 136</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-9-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep135_20200823T102158.mpd"></a>
+                    <div class="episode-no">Episode 135</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-8-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep134_20200822T093906.mpd"></a>
+                    <div class="episode-no">Episode 134</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-7-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep133_20200816T101119.mpd"></a>
+                    <div class="episode-no">Episode 133</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-6-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_kapilsharma_ep132_20200815T082208.mpd"></a>
+                    <div class="episode-no">Episode 132</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-5-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep131_20200809T095903.mpd"></a>
+                    <div class="episode-no">Episode 131</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-4-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep130_20200808T105136.mpd"></a>
+                    <div class="episode-no">Episode 130</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-3-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep129_20200802T084739.mpd"></a>
+                    <div class="episode-no">Episode 129</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-2-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep128_20200801T110234.mpd"></a>
+                    <div class="episode-no">Episode 128</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-1-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep127_20200327T145303.mpd"></a>
+                    <div class="episode-no">Episode 127</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/image-0-compressed.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep126_20200327T145219.mpd"></a>
+                    <div class="episode-no">Episode 126</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6143511763001_thumb_compress17.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_kapilsharma_ep125_int_20200320T163011.mpd"></a>
+                    <div class="episode-no">Episode 125</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6143507799001_thumb_compress30.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_kapilsharma_ep124_20200320T150425.mpd"></a>
+                    <div class="episode-no">Episode 124</div>
+                </div>
+            </div>
+
+            <div class="container d2">
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6141753942001_thumb_compress37.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep123_20200315T091307.mpd"></a>
+                    <div class="episode-no">Episode 123</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6141610510001_thumb_compress87.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_tkss_ep_122_20200314T112241.mpd"></a>
+                    <div class="episode-no">Episode 122</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6139443578001_thumb_compress63.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_the_kapil_sharma_show_ep121_20200308T102626.mpd"></a>
+                    <div class="episode-no">Episode 121</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6139275795001_thumb_compress98.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep120_20200307T111305.mpd"></a>
+                    <div class="episode-no">Episode 120</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6137385878001_thumb_compress85.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep119_int_20200301T095957.mpd"></a>
+                    <div class="episode-no">Episode 119</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6137203155001_thumb_compress28.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_tkss_ep_118_20200229T113819.mpd"></a>
+                    <div class="episode-no">Episode 118</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6134980756001_thumb_compress32.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow_ep117_int_20200222T133026.mpd"></a>
+                    <div class="episode-no">Episode 117</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6132847889001_thumb_compress84.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_the_kapil_sharma_show_ep115_new_1.mpd"></a>
+                    <div class="episode-no">Episode 115</div>
+                    <!-- ########################------not 16------################3 -->
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6130973422001_thumb_compress84.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_the_kapil_sharma_show_ep114_new.mpd"></a>
+                    <div class="episode-no">Episode 114</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6130796294001_thumb_compress21.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_the_kapil_sharma_show_ep113_new.mpd"></a>
+                    <div class="episode-no">Episode 113</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6129044666001_thumb_compress77.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_the_kapil_sharma_show_ep112_new.mpd"></a>
+                    <div class="episode-no">Episode 112</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6128893674001_thumb_compress33.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_the_kapil_sharma_show_ep111_new.mpd"></a>
+                    <div class="episode-no">Episode 111</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6126498031001_thumb_compress76.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow2_ep110.mpd"></a>
+                    <div class="episode-no">Episode 110</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6124742088001_thumb_compress12.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow2_ep109.mpd"></a>
+                    <div class="episode-no">Episode 109</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6124621389001_thumb_compress43.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow2_ep108.mpd"></a>
+                    <div class="episode-no">Episode 108</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6121917292001_thumb_compress13.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow2_ep107.mpd"></a>
+                    <div class="episode-no">Episode 107</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6121734960001_thumb_compress37.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow2_ep106.mpd"></a>
+                    <div class="episode-no">Episode 106</div>
+                </div>
+                <div class="content">
+                    <a style="background-image: url(thumbnail/125_100/6119864364001_thumb.jpg); background-repeat: no-repeat; background-size: cover;"
+                        href="vlc://https://streaming.sonyliv.com/show_set_thekapilsharmashow2_ep105.mpd"></a>
+                    <div class="episode-no">Episode 105</div>
+                </div>
+            </div>
+            <!-- <div class="next-page"></div> -->
+            <div class="selection" tabindex="1">
+                <select id="select" name="cd-dropdown" class="cd-select">
+                    <option value="1">Page 1</option>
+                    <option value="2">Page 2</option>
+                </select>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        $('.container').hide();
+        $('.d1').show();
+
+        $('#select').on("change", function () {
+            $('.container').hide();
+            $('.d' + $(this).val()).show();
+        }).val("1");
+    });
+</script>
 
 </html>
